@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title> Fly Air</title>
+        <link href="https://fonts.googleapis.com/css?family=Merienda+One" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="searchflights.css">
+        <link rel="stylesheet" type="text/css" href="navbar1.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+    </head>
+    <body>
+        <div class="nav">
+                <ul>
+				    <li><a href="home.html">Home</a></li>
+				    <li><a href="searchflights.html">Search Flights</a></li>
+				    <li><a href="webcheckin.html">Web Checkin</a></li>
+                    <li><a href="cancellation.html">Cancellation</a></li>
+                    <li><a href="login.html">Login</a></li>
+				</ul>
+        </div>
+        <div class="search">
+            <h1>SEARCH FLIGHTS</h1><br>
+            <form>
+            
+                <bold>Journey Type:</bold><input type="radio"  name="journey" value="one-way">One way<input type="radio"  value="Round Trip" name="journey" value="round-trip"> Round Trip<br><br>
+
+                DEPARTURE CITY:<select name="departure" required>
+                        <option  selected="selected">--SELECT A LOCATION--</option>
+                        <option value="Bangalore">BLR,Bangalore,Kempegowda International Airport</option>
+                        <option value="Chennai">MAA,Chennai,Chennai International Airport</option>
+					    <option value="Mumbai">BOM,Mumbai,Chhatrapati Shivaji Airport</option> 
+					    <option value="Kochi">COK,Kochi,Cochin International Airport</option>
+                        <option value="New Delhi">DEL,New Delhi,Indira Gandhi International Airport</option>
+					   <option value="Ahmedabad">AMD,Ahmedabad,Sardar Vallabhbhai Patel International Airport</option>
+					   <option value="Pune">PNQ,Pune,Pune Airport</option>
+					   <option value="Chandigarh">IXC,Chandigarh,Chandigarh International Airport</option>
+					   <option value="Athens,Greece">ATH,Athens,Greece,Athens International Airport</option>
+					   <option value="Narita,Japan">NRT,Narita,Japan,Narita International Airport</option>
+					   <option value="Bern,Switzerland">BRN,Bern,Switzerland,Bern Airport</option>
+					   <option value="Bali,Indonesia">DPS,Bali,Indonesia,Ngurah Rai International Airport</option>
+                    </select>
+                <br><br>
+                 ARRIVAL CITY:<select name="arrival" required>
+                    <option  selected="selected" >--SELECT A LOCATION--</option>
+                      <option value="Kolkata">CCU,Kolkata,Netaji Subhas Chandra Bose Airport</option>
+                      <option value="Mumbai">BOM,Mumbai,Chhatrapati Shivaji Airport</option>
+                      <option value="Chennai">MAA,Chennai,Chennai International Airport</option>
+ 					    <option value="Bangalore">BLR,Bangalore,Kempegowda International Airport</option>
+					 <option value="Kochi">COK,Kochi,Cochin International Airport</option>
+                      <option value="New Delhi">DEL,New Delhi,Indira Gandhi International Airport</option>
+					<option value="Ahmedabad">AMD,Ahmedabad,Sardar Vallabhbhai Patel International Airport</option>
+					<option value="Pune">PNQ,Pune,Pune Airport</option>
+					<option value="Chandigarh">IXC,Chandigarh,Chandigarh International Airport</option>
+					<option value="Athens,Greece">ATH,Athens,Greece,Athens International Airport</option>
+					<option value="Narita,Japan,">NRT,Narita,Japan,Narita International Airport</option>
+					<option value="Bern,Switzerland">BRN,Bern,Switzerland,Bern Airport</option>
+					<option value="Bali,Indonesia">DPS,Bali,Indonesia,Ngurah Rai International Airport</option>
+                    </select>
+                <br><br>
+                DEPARTURE DATE:<input type="date" name='date'/required><br><br>
+                NUMBER OF TARVELLERS:<br>
+                    Adult(18 yrs+)<input type="number" required> Children(2-17 yrs)<input type="number" required> Infant(Below 2 yrs):<input type ="number"/ required><br><br>
+                    <a href=""><input  type="submit" name="submit" value="Search Flight"/></a> <a href="home.html"><input type="button" value="Cancel"/> </a>
+                       
+        </form>
+        <br>
+        </div>
+        
+        
+        <div class="foot">
+            <h1>CONTACT US</h1>
+            <img class="image" src="logos/location.png"><br>
+                F-233, VIT University, Vellore, Tamil Nadu, 632004<br><br>
+            <img class="image" src="logos/phone.png"><br>
+                +91 7530007710, +91 8319228858<br><br>
+            <table>
+                <tr>
+                    <th><img class="image" src="logos/email.png"></th>
+                    <th><img class="image" src="logos/facebook.png"></th>
+                    <th><img class="image" src="logos/twitter.png"></th>
+                    <th><img class="image" src="logos/googleplus.png"></th>
+                </tr>
+                <tr>
+                    <td>flyair@gmail.com</td>
+                    <td>facebook.com/flyair</td>
+                    <td>twitter.com/flyair</td>
+                    <td>plus.google.com/flyair</td>
+                </tr> 
+            </table>
+        </div>
+    </body>
+</html>

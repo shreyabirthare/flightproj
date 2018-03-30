@@ -1,0 +1,14 @@
+body{
+    background-image: url(e2.PNG);
+    background-repeat: round;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.web{
+    text-align: center;
+}

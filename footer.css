@@ -1,0 +1,20 @@
+.foot{
+    background-color: #00303F;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Merienda', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.image{
+    height: 30px;
+}
+table{
+    color: white;
+    width: 100%;
+    text-align: center;
+}

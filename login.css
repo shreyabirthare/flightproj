@@ -1,0 +1,27 @@
+body{
+    background-image: url(e2.PNG);
+    background-repeat: round;
+    color: white;
+    font-family: 'Merienda One', cursive;
+    font-size: 20px;
+}
+.offers{
+    font-size: 15px;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.log{
+    border: 5px solid white;
+    border-radius: 10px;
+                
+}
+.f1{
+    vertical-align: top;
+    padding-right: 70px;
+    border-right: 5px solid white;
+}
+td{
+    padding-top: 20px;
+}
